@@ -1,0 +1,29 @@
+name: mt1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  calendar_appbar: ^0.0.6
+  drift: ^2.22.1
+  sqlite3_flutter_libs: ^0.5.26
+  path: ^1.9.0
+  path_provider: ^2.1.5
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  drift_dev: ^2.22.0
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
